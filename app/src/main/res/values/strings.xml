@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">project2</string>
+    <string name="enter_name">Введите имя</string>
+    <string name="enter_age">Введите возраст</string>
+    <string name="declarative">Декларативно</string>
+    <string name="programmed">Программно</string>
+</resources>
