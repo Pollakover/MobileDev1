@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">project4</string>
+    <string name="to_second_fragment">Ко второму фрагменту</string>
+    <string name="to_third_fragment">К третьему фрагменту</string>
+</resources>
