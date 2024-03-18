@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Пример текста для ScrollView -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewBananas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="34sp"
+                android:text="Банан 1\nБанан 2\nБанан 3\nБанан 4\nБанан 5\nБанан 6\nБанан 7\nБанан 8\nБанан 9\nБанан 10\nБанан 11\nБанан 12\nБанан 13\nБанан 14\nБанан 15\nБанан 16\nБанан 17\nБанан 18\nБанан 19\nБанан 20\nБанан 21\nБанан 22\nБанан 23\nБанан 24\nБанан 25\nБанан 26\nБанан 27\nБанан 28\nБанан 29\nБанан 30\nБанан 31\nБанан 32\nБанан 33\nБанан 34\nБанан 35\nБанан 36\nБанан 37\nБанан 38\nБанан 39\nБанан 40\nБанан 41\nБанан 42\nБанан 43\nБанан 44\nБанан 45\nБанан 46\nБанан 47\nБанан 48\nБанан 49\nБанан 50\n" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Пример EditText внизу страницы -->
+    <EditText
+        android:id="@+id/editTextBananas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите текст" />
+
+</LinearLayout>
