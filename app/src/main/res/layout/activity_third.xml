@@ -5,7 +5,6 @@
     android:orientation="vertical"
     android:padding="16dp">
 
-    <!-- Пример текста для ScrollView -->
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -26,7 +25,6 @@
         </LinearLayout>
     </ScrollView>
 
-    <!-- Пример EditText внизу страницы -->
     <EditText
         android:id="@+id/editTextBananas"
         android:layout_width="match_parent"

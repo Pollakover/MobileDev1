@@ -21,7 +21,6 @@ public class SecondActivity extends AppCompatActivity {
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
-        // Создание списка яблок (пример)
         appleList = new ArrayList<>();
         appleList.add(new Apple("Сорт 1", R.drawable.apple));
         appleList.add(new Apple("Сорт 2", R.drawable.apple));

@@ -11,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-    String[] categories = {"Яблоки", "Бананы", "Апельсины","Груши"}; // пример списка категорий
+    String[] categories = {"Яблоки", "Бананы", "Апельсины","Груши"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,11 +22,9 @@ public class MainActivity extends AppCompatActivity {
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, categories);
         listView.setAdapter(adapter);
 
-        // Обработчик нажатия на элемент списка
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                // Определение, какую активность открыть в зависимости от выбранной категории
                 switch (position) {
                     case 0: // Яблоки
                         startActivity(new Intent(MainActivity.this, SecondActivity.class));
